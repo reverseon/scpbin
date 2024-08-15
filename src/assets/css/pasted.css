@@ -1,0 +1,26 @@
+.pastebin-box {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #333;
+    resize: none;
+    min-height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.pastebin-box:read-only {
+    cursor: default;
+    user-select: text;
+}
+
+.pastebin-box:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+}
