@@ -38,7 +38,7 @@ export function WithTitle(props: {
         <props.inside_card />
       </main>
       <footer class="footer">
-        <p class="copyright">Made by <a href="https://www.naj.one">Thirafi Najwan</a>. Contribute on <a href="https://www.github.com/thirafi/scpbin">GitHub</a>.</p>
+        <p class="copyright">Made by <a href="https://www.naj.one">Thirafi Najwan</a>. Contribute on <a href="https://www.github.com/reverseon/scpbin">GitHub</a>.</p>
       </footer>
     </div>
   )
